@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyBestYoutube</string>
+    <string name="long_text">Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test.</string>
+    <string name="text_with_bullets">\u2022</string>
 </resources>

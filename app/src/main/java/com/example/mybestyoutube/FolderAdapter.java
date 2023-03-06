@@ -1,6 +1,7 @@
 package com.example.mybestyoutube;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -43,7 +44,10 @@ public class FolderAdapter extends RecyclerView.Adapter<FolderAdapter.MyViewHold
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, folderNames, Toast.LENGTH_SHORT).show();
+                /*Toast.makeText(context, folderNames, Toast.LENGTH_SHORT).show();*/
+                Intent intent = new Intent(context, VideoFolder.class);
+                intent.putExtra("folderName", folderName.get(position));
+                context.startActivity(intent);
             }
         });
     }
