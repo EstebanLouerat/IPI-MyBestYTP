@@ -1,4 +1,4 @@
-package com.example.mybestyoutube;
+package com.example.mybestyoutube.activities;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -10,6 +10,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.mybestyoutube.R;
+import com.example.mybestyoutube.VideoModel;
+import com.example.mybestyoutube.adapter.FolderAdapter;
 
 import java.util.ArrayList;
 

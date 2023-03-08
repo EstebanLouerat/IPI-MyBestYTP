@@ -2,4 +2,12 @@
     <string name="app_name">MyBestYoutube</string>
     <string name="long_text">Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test. Long text for test.</string>
     <string name="text_with_bullets">\u2022</string>
+    <string name="video_time">00:00:00</string>
+    <string name="todo">TODO</string>
+    <string name="resolution">1080p</string>
+    <string name="video_size">1.00GB</string>
+    <string name="size_in_b">%1$.2f B</string>
+    <string name="size_in_kb">%1$.2f KB</string>
+    <string name="size_in_mb">%1$.2f MB</string>
+    <string name="size_in_gb">%1$.2f GB</string>
 </resources>

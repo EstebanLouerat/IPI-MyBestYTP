@@ -1,4 +1,4 @@
-package com.example.mybestyoutube;
+package com.example.mybestyoutube.adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,19 +6,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
-import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.mybestyoutube.R;
+import com.example.mybestyoutube.activities.VideoFolder;
+import com.example.mybestyoutube.VideoModel;
 
 import java.util.ArrayList;
 
 public class FolderAdapter extends RecyclerView.Adapter<FolderAdapter.MyViewHolder> {
 
-    private ArrayList<String> folderName;
-    private ArrayList<VideoModel> videoModels;
-    private Context context;
+    private final ArrayList<String> folderName;
+    private final ArrayList<VideoModel> videoModels;
+    private final Context context;
 
     public FolderAdapter(ArrayList<String> folderName, ArrayList<VideoModel> videoModels, Context context) {
         this.folderName = folderName;
@@ -57,7 +59,7 @@ public class FolderAdapter extends RecyclerView.Adapter<FolderAdapter.MyViewHold
         return folderName.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public static class MyViewHolder extends RecyclerView.ViewHolder {
         TextView name, countVideos;
 
         public MyViewHolder(@NonNull View itemView) {

@@ -15,6 +15,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import com.example.mybestyoutube.activities.MainActivity;
+
 @SuppressLint("CustomSplashScreen")
 public class SplashScreen extends AppCompatActivity {
 
